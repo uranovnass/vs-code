@@ -160,9 +160,9 @@ const About = () => {
       <GalleryContainer>
         <GalleryTitle>Наша Галерея</GalleryTitle>
         <Gallery>
-          <GalleryImage src="https://via.placeholder.com/300x200?text=Image+1" alt="Gallery Image 1" />
-          <GalleryImage src="https://via.placeholder.com/300x200?text=Image+2" alt="Gallery Image 2" />
-          <GalleryImage src="https://via.placeholder.com/300x200?text=Image+3" alt="Gallery Image 3" />
+          <GalleryImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfPfWz7mu9jXuvxSPI5x4pgpcLSpf9x-Y6LA&s" alt="Gallery Image 1" />
+          <GalleryImage src="https://bf-logistic.ua/ru/images/article/2024/chem-raznitsa-mezhdu/987902204_987902204.jpg" alt="Gallery Image 2" />
+          <GalleryImage src="https://agro-alyans.com/wp-content/uploads/2023/03/svarog-1.jpg" alt="Gallery Image 3" />
         </Gallery>
       </GalleryContainer>
 
