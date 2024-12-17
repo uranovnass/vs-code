@@ -13,6 +13,14 @@ const HeaderContainer = styled.header`
   align-items: center;
   font-family: 'Arial', sans-serif;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #45a049; /* Темнее при наведении */
+  }
 `;
 
 // Логотип
@@ -28,6 +36,8 @@ const Logo = styled(Link)`
 
   &:hover {
     color: #e4e4e4;
+    transform: scale(1.1);
+    transition: color 0.3s ease, transform 0.3s ease;
   }
 `;
 
