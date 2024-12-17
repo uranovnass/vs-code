@@ -79,7 +79,7 @@ const Button = styled.button`
 `;
 
 const HighlightSection = styled.div`
-  background-color: #f9f9f9;
+  background-color:rgb(244, 224, 182);
   padding: 50px 20px;
   margin: 40px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
