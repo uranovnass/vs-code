@@ -67,6 +67,25 @@ const StyledLink = styled(Link)`
     transform: scale(1.05); /* Немного увеличивается при наведении */
   }
 `;
+const Container = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+const Item = styled.div`
+  width: 45%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+`;
 
 const Header = () => {
   return (

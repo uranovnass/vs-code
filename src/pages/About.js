@@ -116,27 +116,50 @@ const GalleryImage = styled.img`
     transform: scale(1.05);
   }
 `;
+const VideoContainer = styled.div`
+  margin: 40px auto;
+  max-width: 800px;
+`;
+
+const VideoTitle = styled.h3`
+  font-size: 2rem;
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 20px;
+`;
 
 
 
 const About = () => {
   return (
     <AboutContainer>
-      {/* Заголовок страницы */}
-      <SectionTitle>О Нас</SectionTitle>
+      
 
       {/* Миссия кооператива */}
       <CompanyMission>
         <h3>Наша Миссия</h3>
         <MissionText>
-          Мы стремимся создавать устойчивое будущее с помощью органического сельского
-          хозяйства, выращивая качественные продукты и обеспечивая наших партнеров
-          безопасной и экологически чистой продукцией. Мы верим в силу сотрудничества и
-          в то, что коллективные усилия помогают нам расти и развиваться.
+        Сельскохозяйственный кооператив "Тазажан" был создан с целью объединить усилия местных фермеров и развивать аграрный  сектор Кыргызстана. Название "Тазажан" символизирует чистоту природы и стремление к обновлению и развитию сельской жизни.
+
+С момента основания кооператив стал опорой для сотен фермеров, предоставляя доступ к современным технологиям, рынкам сбыта и взаимной поддержке. Мы гордимся тем, что "Тазажан" объединяет традиции и инновации, чтобы обеспечить высокое качество продукции и улучшить жизнь сельских жителей.
         </MissionText>
       </CompanyMission>
 
-      {/* Команда */}
+
+<VideoContainer>
+  <VideoTitle>Посмотрите Видео о Нас</VideoTitle>
+  <iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/Ur43R8OVMoE"
+  title="Видео"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+</VideoContainer>
+
       <SectionTitle>Наша Команда</SectionTitle>
       <TeamContainer>
         <TeamMember>
@@ -156,7 +179,7 @@ const About = () => {
         </TeamMember>
       </TeamContainer>
 
-      {/* Галерея */}
+
       <GalleryContainer>
         <GalleryTitle>Наша Галерея</GalleryTitle>
         <Gallery>
