@@ -154,18 +154,18 @@ const ProductCard = styled.div`
 const Home = () => {
   return (
     <PageContainer>
-      {/* Баннер с фоновым изображением */}
+     
       <Banner>
         <p>Tazajan - Свежие органические продукты</p>
       </Banner>
 
-      {/* Описание */}
+      
       <SectionTitle>Добро пожаловать в Tazajan</SectionTitle>
       <Description>
         Мы гордимся тем, что предоставляем вам самые свежие и натуральные продукты, выращенные с заботой о земле и нашем сообществе. Присоединяйтесь к нам, чтобы узнать больше о наших традициях и ценностях.
       </Description>
 
-      {/* Основные преимущества */}
+      
       <HighlightSection>
         <h3>Почему выбирают нас:</h3>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
@@ -184,7 +184,7 @@ const Home = () => {
         </div>
       </HighlightSection>
 
-      {/* Галерея продукции */}
+      
       <ProductGallery>
         <ProductCard>
           <img src="https://snpk.in.ua/content/images/45/47739455517795.jpg" alt="Продукт 1" />
@@ -203,7 +203,7 @@ const Home = () => {
         </ProductCard>
       </ProductGallery>
 
-      {/* Кнопка */}
+    
       <Button onClick={() => window.location.href = '/products'}>
         Узнать больше
       </Button>
