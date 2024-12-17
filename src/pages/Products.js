@@ -111,7 +111,7 @@ const products = [
     isEmpty: true
   },
   {
-    title: "Свекла",
+    title: "Свекла сахарная",
     description: "Сахарная",
     imageUrl: "https://media.istockphoto.com/id/148088874/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D0%B0%D1%8F-%D1%81%D0%B2%D1%91%D0%BA%D0%BB%D0%B0.jpg?s=612x612&w=0&k=20&c=lQPk6GQi3iLwiDcJZK-QB2D0GE9NnjySBqZM-R0SaHU=", // Пустое фото
     isEmpty: true
@@ -138,7 +138,7 @@ const App = () => {
                 <>
                   <ProductImage style={{ backgroundImage: `url(${product.imageUrl})` }} />
                   <ProductTitle>{product.title}</ProductTitle>
-                  <ProductDescription>Добавьте описание и фото</ProductDescription>
+                  <ProductDescription>Валентинович,Ашур,Ната</ProductDescription>
                 </>
               ) : (
                 <>
