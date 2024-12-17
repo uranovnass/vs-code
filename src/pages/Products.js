@@ -105,20 +105,20 @@ const products = [
     imageUrl: "https://agromer-storage-public.storage.yandexcloud.net/st/images/736/offers/07fff232-3a24-4722-b9a7-1878e7be4169/963004cc47c1b9081b54c3856c6748d3.jpg" // Пример фото
   },
   {
-    title: "Пустая карточка 1",
-    description: "",
+    title: "Кукуруза",
+    description: "Для кормление животных ",
     imageUrl: "https://agromer-storage-public.storage.yandexcloud.net/st/images/401/offers/2243a79a-dd8d-4299-a07c-bd5660c9d483/1be7dac8d061062f6b256749dee1997f.png", // Пустое фото
     isEmpty: true
   },
   {
-    title: "Пустая карточка 2",
-    description: "",
+    title: "Свекла",
+    description: "Сахарная",
     imageUrl: "https://media.istockphoto.com/id/148088874/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D0%B0%D1%8F-%D1%81%D0%B2%D1%91%D0%BA%D0%BB%D0%B0.jpg?s=612x612&w=0&k=20&c=lQPk6GQi3iLwiDcJZK-QB2D0GE9NnjySBqZM-R0SaHU=", // Пустое фото
     isEmpty: true
   },
   {
-    title: "Пустая карточка 3",
-    description: "",
+    title: "Свекла",
+    description: "Для употребление",
     imageUrl: "https://cdn.botanichka.ru/wp-content/uploads/2016/03/Beetroot.jpg", // Пустое фото
     isEmpty: true
   }

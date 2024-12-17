@@ -80,6 +80,7 @@ const Header = () => {
         <NavItem><StyledLink to="/about">About</StyledLink></NavItem>
         <NavItem><StyledLink to="/products">Products</StyledLink></NavItem>
         <NavItem><StyledLink to="/contact">Contact</StyledLink></NavItem>
+        
       </Nav>
     </HeaderContainer>
   );
