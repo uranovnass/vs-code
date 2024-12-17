@@ -157,9 +157,9 @@ const Contact = () => {
         <ContactInfo>
           <ContactInfoTitle>Наши координаты</ContactInfoTitle>
           <ContactList>
-            <ContactListItem><strong>Телефон:</strong>+996 554 412 238 <br /> +996 550 390 390 <br /> +996 703 444 888 </ContactListItem>
-            <ContactListItem><strong>Email:</strong> info@company.com</ContactListItem>
-            <ContactListItem><strong>Tik Tok</strong></ContactListItem>
+            <ContactListItem><strong>Телефон:</strong> <br/> +996 554 412 238 <br /> +996 550 390 390 <br /> +996 703 444 888 </ContactListItem>
+            <ContactListItem><strong>Email:</strong> <a href="mailto:nurbiykeberdibekova@gmail.com">nurbiykeberdibekova@gmail.com</a></ContactListItem>
+            <ContactListItem><strong>Tik Tok:</strong> <a href="https://www.tiktok.com/@tazajan777" target="_blank">@tazajan777</a></ContactListItem>
             <ContactListItem><strong>Адрес:</strong> Кыргызстан, Чуйская область, Исык Атинский район, с. Ново Покровка, ул. Ленина 78</ContactListItem>
           </ContactList>
         </ContactInfo>
